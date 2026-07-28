@@ -1,16 +1,62 @@
-# React + Vite
+# Présentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Ce projet a été réalisé dans le cadre de l'examen CCP 2026.
 
-Currently, two official plugins are available:
+Cette application est développée avec React et permet aux utilisateurs de consulter les informations de la boutique grâce à l'API Laravel :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+    Accueil
+    Liste des produits (nom, prix, stock, catégorie)
+    Détail d’un produit
+    Liste des catégories
 
-## React Compiler
+Le Frontend est développé avec React et consomme une API REST développée par une application Laravel.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies utilisées :
 
-## Expanding the Oxlint configuration
+    React + Vite
+    JavaScript
+    React Bootstrap
+    Axios
+    Css
+    Hooks (useState, useEffect)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+## Installation
+
+Clonner le projet
+```bash
+git clone "https://github.com/Dieynabahamadymarigo/boutique-frontend-KhadimNguer-DieynabaHamadyMarigo.git"
+```
+Aller dans le dossier
+```bash
+cd boutique-front-end
+```
+Installer les dépendanses
+```bash
+npm install
+```
+lancer le projet
+```bash
+npm run dev
+```
+
+## Fontionnalités
+
+=> Page d'accueil
+=> Liste des produits(nom,prix,caategorie,stock)
+=> Détail d'un produit
+=> Liste des catégories
+=> Interface responsive (ordinateur et mobile)
+=> Communication avec l'API Laravel
+
+## Connexion API
+
+Le frontend communique avec le backend Laravel.
+
+=> Assurez-vous que le serveur Laravel est lancé avant de démarrer l'application React.
+
+## Auteur
+
+Projet réalisé par :
+HAMADY MARIGO Dieynaba
+NGUER Khadim
